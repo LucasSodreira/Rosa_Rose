@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Satoshi', sans-serif,  'Courier New', Courier, monospace;
+  }
+
+.top-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 0.6rem;
+}
+
+.header-menu{
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid #f1f1f1;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.login, .register{
+    padding: 0.6rem 1rem;
+    border-radius: 0.6rem;
+}
+
+.options ul {
+    list-style-type: none; /* Remove os pontos de lista */
+    padding: 0; /* Remove o preenchimento padrão */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.search-container {
+    position: relative;
+    display: inline-block; /* Para que a imagem e o campo de texto fiquem na mesma linha */
+}
+
+.search {
+    background: #F0F0F0;
+    padding: 0.4rem 2rem;
+    border-radius: 1rem;
+}
+
+.search-container img {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 20px; /* Defina a largura da imagem conforme necessário */
+    height: auto;
+}
+
+.options ul li {
+    display: inline; /* Faz com que os itens da lista fiquem em linha */
+}
+
+.footer-menu{
+    background: #F0F0F0;
+    padding: 5% 0 5% 0;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo-info{
+    width: 20%;
+}

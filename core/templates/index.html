@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block javascript %}
+    <script src="{% static 'js/rating.js' %}"></script>
+{% endblock javascript %}
+    
+
+{% block main %}
+    <div class="container-card">
+        <div class="card-info">
+            <h1>FIND CLOTHES <br> THAT MATCHES <br> YOUR STYLE</h1>
+            <p>Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
+        </div>
+        <a href="#" class="card-button">Shop Now</a>
+    </div>
+
+    <div class="container-product">
+        <h1>NEW ARRIVALS</h1>
+
+        <div class="container-card-product">
+            <div class="product">
+                <div id="background-product">
+                    <img src="{% static 'img/image_7.png' %}" alt="product1">
+                </div>
+                <h2>Product 1</h2>
+                <ul class="rating" id="stars">
+                    <li class="star" data-value="1">&#9733;</li>
+                    <li class="star" data-value="2">&#9733;</li>
+                    <li class="star" data-value="3">&#9733;</li>
+                    <li class="star" data-value="4">&#9733;</li>
+                    <li class="star" data-value="5">&#9733;</li>
+                  </ul>
+                  
+                <p>$100</p>
+            </div>
+
+            <div class="product">
+                <div id="background-product">
+                    <img src="{% static 'img/image_7.png' %}" alt="product1">
+                </div>
+                <h2>Product 1</h2>
+                <ul class="rating" id="stars">
+                    <li class="star" data-value="1">&#9733;</li>
+                    <li class="star" data-value="2">&#9733;</li>
+                    <li class="star" data-value="3">&#9733;</li>
+                    <li class="star" data-value="4">&#9733;</li>
+                    <li class="star" data-value="5">&#9733;</li>
+                  </ul>
+                  
+                <p>$100</p>
+            </div>
+
+            <div class="product">
+                <div id="background-product">
+                    <img src="{% static 'img/image_7.png' %}" alt="product1">
+                </div>
+                <h2>Product 1</h2>
+                <ul class="rating" id="stars">
+                    <li class="star" data-value="1">&#9733;</li>
+                    <li class="star" data-value="2">&#9733;</li>
+                    <li class="star" data-value="3">&#9733;</li>
+                    <li class="star" data-value="4">&#9733;</li>
+                    <li class="star" data-value="5">&#9733;</li>
+                  </ul>
+                  
+                <p>$100</p>
+            </div>
+
+            <div class="product">
+                <div id="background-product">
+                    <img src="{% static 'img/image_7.png' %}" alt="product1">
+                </div>
+                <h2>Product 1</h2>
+                <ul class="rating" id="stars">
+                    <li class="star" data-value="1">&#9733;</li>
+                    <li class="star" data-value="2">&#9733;</li>
+                    <li class="star" data-value="3">&#9733;</li>
+                    <li class="star" data-value="4">&#9733;</li>
+                    <li class="star" data-value="5">&#9733;</li>
+                  </ul>
+                <p>$100</p>
+            </div>
+
+        </div>
+
+        <div id="container-card-end">
+            <a href="#" id="button-product">View All</a>
+        </div>
+
+    </div>
+
+{% endblock main %}
+    

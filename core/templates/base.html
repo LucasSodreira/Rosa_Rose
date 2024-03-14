@@ -1,0 +1,80 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+    {% block javascript %}
+        
+    {% endblock javascript %}
+                
+</head>
+<body>
+    
+    <nav class="top-header">
+        <p>TESTEEEEEEEEEE</p>
+    </nav>
+<header class="header-menu">
+    
+    <div class="logo"><img src="{% static 'img/logo.png' %}" alt="alt"></div>
+    <nav class="options">
+        <ul>
+            <li>Shop</li>
+            <li>On Sale</li>
+            <li>New Arrials</li>
+            <li>Brands</li>
+        </ul>
+    </nav>
+    <div class="search-container">
+        <input type="text" class="search" placeholder="Pesquisar">
+        <img src="{% static 'img/Vector.png' %}" alt="Pesquisar">
+    </div>
+    <button class="login">Login</button>
+    <button class="register">Register</button>
+
+</header>
+    <main>
+        
+        {% block main %}
+            
+        {% endblock main %}
+            
+    </main>
+
+    <footer class="footer-menu">
+        <div class="footer-logo-info">
+            <img src="{% static 'img/logo.png' %}" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+             
+        <nav>
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

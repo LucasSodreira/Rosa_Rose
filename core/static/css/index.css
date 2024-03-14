@@ -1,0 +1,116 @@
+
+.container-card {
+    background-image: url('/static/img/2pessoas.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 40vh;
+    color: #000000;
+    padding: 4rem;
+    border-radius: 8px;
+    position: initial;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F0F1;
+}
+
+.card-info{
+    width: 50%;
+}
+
+.card-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-info p {
+    font-size: 0.9rem;
+}
+
+.card-button {
+    padding: 0.7rem 3rem;
+    margin-top: 1rem;
+    background: black;
+    border-radius: 3rem;
+    color: white;
+    width: 10%;
+    text-align: center;
+}
+
+.container-product h1{
+    font-size: 2.5rem;
+    font-family: "Archivo Black", sans-serif;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#background-product{
+    
+    display: flex;
+    background: #F0EEED;
+    justify-content: center;
+    width: 11rem;
+    height: 10rem;
+    border-radius: 1rem;
+
+}
+
+.product{
+    margin: 1rem;
+}
+.container-card-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+#container-card-end{
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.container-product{
+    border-bottom: 1px solid #f1f1f1;
+}
+#button-product{
+    padding: 0.7rem 3rem;
+    margin-top: 1rem;
+    border: 1px solid #727272;
+    border-radius: 3rem;
+    color: black;
+    width: 10%;
+    text-align: center;
+}
+
+.product h2{
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.product p{
+    font-weight: 700;
+}
+
+
+.rating {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .rating li {
+    display: inline;
+    font-size: 20px; /* Tamanho da fonte das estrelas */
+    color: gold; /* Cor das estrelas preenchidas */
+  }
+  
+  .rating li:last-child {
+    color: #ccc; /* Cor das estrelas vazias */
+  }
+
+  
+  
